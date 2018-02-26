@@ -10,7 +10,7 @@ local db. A blinking led and a message on Telegram will also notify you about th
 ## How does it work?
 For this project I used a raspberry pi Zero, an arduino Nano, and a [fingerprint
 sensor ](https://www.adafruit.com/product/751).
-A NodeJS script is running on a Pi Zero, waiting for messages coming from arduino. The script is in charge of performing all the db operations and runs a telegram bot used for the communication with the user.
+A NodeJS script is running on a Pi Zero, waiting for messages coming from arduino. The script is in charge of performing all the db operations and runs a Telegram bot used for the communication with the user.
 The arduino simply runs a sketch for capturing fingerprints from the sensor,
 sending them back to the Pi.
 
@@ -27,7 +27,7 @@ Compile the sketch and upload it on arduino.
 
 
 Create a [new Telegram Bot](https://core.telegram.org/bots#3-how-do-i-create-a-bot) and put your
-Telegram token on the <i>index.js</i> script.
+Telegram token inside the <i>index.js</i> script.
 <b>Since users are ideintified by the Telegram username inside the db, you MUST
 check that your Telegram username is properly set.</b>
 Put also your mongodb url, install all modules required and start the NodeJS script on Pi.
