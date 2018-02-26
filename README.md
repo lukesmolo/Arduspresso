@@ -2,7 +2,7 @@
 
 
 > Arduspresso is a smart way for tracking who consumes coffee in an office.
-Instead of using a volatile piece of paper, you can just sign a coffee on your
+Instead of using a volatile piece of paper, you can just mark a coffee on your
 account by simply scanning your fingerprint, and the information will be stored on a
 local db. A blinking led and a message on Telegram will also notify you about the track you left.
 
