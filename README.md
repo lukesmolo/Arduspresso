@@ -1,4 +1,4 @@
-# Arduspresso: a smart way for keep track of coffee you drink in your office
+# Arduspresso: a smart way for keeping track of coffee you drink in your office
 
 
 > Arduspresso is a smart way for tracking who consumes coffee in an office.
