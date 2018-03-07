@@ -28,9 +28,9 @@ Compile the sketch and upload it on arduino.
 
 Create a [new Telegram Bot](https://core.telegram.org/bots#3-how-do-i-create-a-bot) and put your
 Telegram token inside the <i>index.js</i> script.
-<b>Since users are ideintified by the Telegram username inside the db, you MUST
+<b>Since users are identified by the Telegram username inside the db, you MUST
 check that your Telegram username is properly set.</b>
-Put also your mongodb url, install all modules required and start the NodeJS script on Pi.
+Put also your mongodb url, install all required modules and start the NodeJS script on Pi.
 
 ```javascript
 npm install
